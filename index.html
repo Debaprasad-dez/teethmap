@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Document</title>
 </head>
     <style>
-       
+       body{
+        font-family: 'Poppins', sans-serif;
+       }
         #a3mtr:hover + #a3mtrtext{
             display: block !important;
         }
@@ -110,7 +114,7 @@
         
         
         svg#catnip #atongue{
-            fill: antiquewhite;
+            fill: #f4faff;
             stroke-width: 0;
         }
         svg#catnip #atongue:hover{
@@ -121,15 +125,25 @@
         }
    
         #a3mtr:hover,#a3mbr:hover,#a2mbr:hover,#a2mbl:hover,#a1mbr:hover,#a1mbl:hover,#a3mbl:hover,#a3mtl:hover,#a2mtr:hover,#a2mtl:hover,#a1mtr:hover,#a1mtl:hover,#a2pbr:hover,#a2pbl:hover,#a2ptl:hover,#a2ptr:hover,#a1ptr:hover,#a1ptl:hover,#a1pbr:hover,#a1pbl:hover,#actl:hover,#actr:hover,#acbl:hover,#acbr:hover,#alitl:hover,#alitr:hover,#alibl:hover,#alibr:hover,#acitl:hover,#acibl:hover, #atongue:hover,#acitr:hover,#acibr:hover{
-            fill: white !important;
+            fill: #428bcc !important;
             stroke: #428bcc !important;
             fill-opacity: 1;
             stroke-width: 50;
         }
+        #a2ptr,#acbl{
+            fill: #428bcc !important;
+            stroke: #428bcc !important;
+            fill-opacity: 1 !important;
+            stroke-width: 50 !important;
+            
+        }
+        #a2ptrtext,#acbltext{
+        display: block !important;            
+        }
         #a3mtr,#a3mbr,#a2mbr,#a2mbl,#a1mbr,#a1mbl,#a3mbl,#a3mtl,#a2mtr,#a2mtl,#a1mtr,#a1mtl,#a2pbr,#a2pbl,#a2ptl,#a2ptr,#a1ptr,#a1ptl,#a1pbr,#a1pbl,#actl,#actr,#acbl,#acbr,#alitl,#alitr,#alibl,#alibr,#acitl,#acibl,#acitr,#acibr, #atongue{
-            fill: beige;
+            fill: #f4faff;
             stroke-width: 10;
-            stroke: #8b6614 !important;
+            stroke: #428bcc ;
         }
         #a3mtrtext,#a3mbrtext,#a2mbrtext,#a2mbltext,#a1mbrtext,#a1mbltext,#a3mbltext,#a3mtltext,#a2mtrtext,#a2mtltext,#a1mtrtext,#a1mtltext,#a2pbrtext,#a2pbltext,#a2ptltext,#a2ptrtext,#a1ptrtext,#a1ptltext,#a1pbrtext,#a1pbltext,#actltext,#actrtext,#acbltext,#acbrtext,#alitltext,#alitrtext,#alibltext,#alibrtext,#acitltext,#acibltext, #atonguetext,#acitrtext,#acibrtext{
             display: none;
@@ -137,7 +151,7 @@
     </style>
 <body>
     <br>
-    <div class="container text-center">
+    <div class="mx-5 px-5 py-3 mb-3 text-center" style="border: solid 5px #428bcc; border-radius: 25px;">
         <div class=" mx-auto">
             
             
@@ -211,6 +225,37 @@
                 </svg>
                 
         </div>
+        <br>
+        <h2><b>DETAILED</b> INFORMATION</h2>
+        <div class="w-50 mx-auto my-3" style="height: 2px;background: #000;"></div>
+        <div class="row">
+
+            <div class="col-md-5 mx-auto text-left p-3">
+                <div style="background: #dcefff;border-radius: 15px;">
+
+                    <div class="m-0 p-0" style="border-radius: 50px;">
+                        <h4 class="py-3 pl-3 m-0 text-white" style="background: #428bcc;border-radius: 15px;">Tooth with defect: <br> <b>2nd Molar</b></h4>
+                    </div>
+                    <div class="m-0 p-0">
+                        <h5 class="p-3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis laudantium, accusantium voluptatem voluptates officiis praesentium quibusdam nam, magnam molestiae eveniet. Sunt culpa ratione nobis! Perferendis fugiat eos nihil molestias!</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mx-auto text-left p-3">
+                <div style="background: #dcefff;border-radius: 15px;">
+
+                    <div class="m-0 p-0" style="border-radius: 50px;">
+                        <h4 class="py-3 pl-3 m-0 text-white" style="background: #428bcc;border-radius: 15px;">Tooth with defect: <br> <b>Cuspid</b></h4>
+                    </div>
+                    <div class="m-0 p-0">
+                        <h5 class="p-3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis laudantium, accusantium voluptatem voluptates officiis praesentium quibusdam nam, magnam molestiae eveniet. Sunt culpa ratione nobis! Perferendis fugiat eos nihil molestias!</h5>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
